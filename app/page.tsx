@@ -1,7 +1,6 @@
 import Link from "next/link";
 import {
   ArrowDownRight,
-  ArrowRight,
   ArrowUpRight,
   Check,
   Code2,
