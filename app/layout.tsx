@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hklabs.dev"),
   title: {
     default: "HK Labs — Modern websites, built with intent",
     template: "%s | HK Labs",
