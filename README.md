@@ -31,14 +31,17 @@ npm run build
 
 All portfolio entries are explicitly labelled as self-initiated concepts or technical demonstrations. They must not be represented as commissioned client work.
 
-## Deployment
+## Contact
+The primary contact is [a.koumad.pro@gmail.com](mailto:a.koumad.pro@gmail.com). The site uses a mailto CTA and does not require a contact form or backend.
 
-Netlify supports the Next.js App Router through its OpenNext adapter. The Free plan allows commercial projects, has a monthly usage-credit limit, and can pause projects when the limit is reached. Use the free `*.netlify.app` subdomain initially; no paid custom domain is required.
+## Hosting and domain
+The intended hosting platform is Vercel. Vercel assigns a free `*.vercel.app` deployment URL, so no paid custom domain is required.
+
+**Plan restriction:** Vercel's Hobby plan is limited to personal, non-commercial use. Because HK Labs markets paid development services, do not use Hobby for the public commercial launch. A Vercel Pro plan or a hosting provider whose free tier explicitly permits commercial use is required for that purpose. See [Vercel Hobby plan](https://vercel.com/docs/plans/hobby) and [Vercel account plans](https://vercel.com/docs/plans).
 
 ## Before public launch
-- Use the free Netlify subdomain for the initial public launch; configure the canonical URL and social preview image after the production URL is assigned.
-- The primary contact is `a.koumad.pro@gmail.com` (mailto link in the contact section).
-- Reassess hosting limits and terms before traffic or commercial requirements grow.
+- Choose a hosting plan whose terms permit the intended commercial use.
+- After the production URL is assigned, configure `metadataBase`, canonical metadata and social preview assets.
 - Build dedicated case-study pages after each demo is implemented and reviewed.
 - Add a privacy notice before introducing analytics or personal-data collection.
-- Run typecheck, lint and production build in CI.
+- Run typecheck, lint and production build in CI before merging.
