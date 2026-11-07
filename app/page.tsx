@@ -219,7 +219,8 @@ export default function Home() {
         <SectionLabel>HAVE A PROJECT IN MIND?</SectionLabel>
         <h2>Let's make your<br /><span>next build better.</span></h2>
         <p>Send a short written brief. Include your website, what needs to improve and your ideal outcome. We’ll respond with the next practical step.</p>
-        <a className="button button-primary contact-button" href="https://github.com/HakimDev-tech" target="_blank" rel="noreferrer">Contact via GitHub <ArrowUpRight size={17} /></a>
+        <a className="button button-primary contact-button" href="mailto:a.koumad.pro@gmail.com?subject=HK%20Labs%20-%20Project%20inquiry">Email HK Labs <ArrowUpRight size={17} /></a>
+        <a className="contact-email" href="mailto:a.koumad.pro@gmail.com">a.koumad.pro@gmail.com</a>
         <small>Written communication only · No calls required</small>
       </section>
 
